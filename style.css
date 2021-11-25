@@ -1,3 +1,4 @@
+/* Regole Generali*/
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -5,6 +6,9 @@
     width: 70%;
     margin: auto;
 }
+/* Fine Regole Generali*/
+
+/* Regole per il layout della row */
 .row{
     margin-top: 40px;
     text-align: center;
@@ -14,6 +18,9 @@
     display: inline-block;
     position: relative;
 }
+/* Fine Regole per il layout della row */
+
+/* Regole per la gestione delle immagini*/
 img{
     height: 300px;
     width: 230px;
@@ -24,6 +31,12 @@ img{
     left: 0;
     z-index: 1;
 }
+.product:hover .img1{
+    display: none;
+}
+/* Fine Regole per la gestione delle immagini*/
+
+/* Regole per gli elementi in sovrimpressione*/
 .info,.heart{
     z-index: 2;
 }
@@ -52,9 +65,9 @@ img{
     margin-left: 2px;
     background-color: seagreen;
 }
-.product:hover .img1{
-    display: none;
-}
+/* Fine Regole per gli elementi in sovrimpressione*/
+
+/* Regole per la sezione "descrizione" */
 p{
     margin-top: 4px;
     text-align: left;
@@ -69,3 +82,4 @@ p{
 .old-price{
     text-decoration: line-through;
 }
+/* Fine Regole per la sezione "descrizione" */
